@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    background-color: #99aad6;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.floor {
+    position: absolute;
+    height: 65px;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+}
+
+.mario {
+    position: absolute;
+    height: 45px;
+    bottom: 65px;
+    left: 300px;
+    z-index: 3;
+}
+
+.cloud{
+    position: absolute;
+    height: 50px;
+    left: 900px;
+    z-index: 1;
+}
+.grass{
+    position: absolute;
+    width: 200px;
+    left: 900px;
+    bottom: 65px;
+    z-index: 2;
+}
+
+.tuba{
+    position: absolute;
+    left: 900px;
+    z-index: 4;
+}

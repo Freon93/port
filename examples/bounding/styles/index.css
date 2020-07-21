@@ -1,0 +1,79 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#redactor {
+    position: absolute;
+    width: 80%;
+    height: -webkit-fill-available;
+    margin: 0;
+    z-index: 1;
+    background-repeat: no-repeat !important;
+
+}
+
+#control {
+    position: absolute;
+    width: 100%;
+    height: 46.8px;
+    z-index: 2;
+    color: #f8f9fa;
+    font-size: 20px;
+}
+
+#instruction {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: -webkit-fill-available;
+}
+
+.label {
+    height: 30.8px;
+    cursor: pointer;
+}
+
+.bounding {
+    fill: #0000;
+    stroke: #44dc25;
+    stroke-width: 2;
+}
+
+#deleteBox {
+    display: none;
+}
+
+.active {
+    fill: #44dc254f;
+}
+
+.point {
+    fill: #fff;
+    stroke: #000;
+    cursor: nwse-resize;
+}
+
+.labelText {
+    fill: #de4e32;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#save {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.loading {
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+#instruction {
+    color: #f8f9fa;
+    overflow: auto;
+}

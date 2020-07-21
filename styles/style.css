@@ -1,0 +1,150 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #ffd50040;
+    background-image: url('../images/sosny.png'),
+    url('../images/kiev_fon.png'),
+    url('../images/sky.png');
+    background-repeat: repeat-x;
+    background-position: 0 top,
+    0 top,
+    0 top;
+    background-size: 100%,
+    100%,
+    100%;
+    animation: 500s para infinite linear;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-body {
+    align-self: center;
+    font-size: 26px;
+}
+
+.dIcon {
+    height: 80px;
+    cursor: pointer;
+}
+
+.dIcon:active {
+    height: 75px;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.contacts {
+    height: 20px;
+    cursor: pointer;
+    margin: 0 5px 5px 5px;
+}
+
+.me {
+    height: fit-content;
+}
+
+.photo, .item {
+    width: 100% !important;
+    border-radius: 50% !important;
+}
+
+h1 {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+.contacts > img {
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.cv {
+    border-radius: 10px !important;
+    min-width: 90% !important;
+}
+
+.rounded {
+    border-radius: 2px;
+}
+
+.ms {
+    display: inline-block;
+}
+
+.side {
+    max-width: 50px !important;
+    position: fixed !important;
+    z-index: 2 !important;
+}
+
+.certIcon {
+    width: 180px;
+    margin: 5px;
+    cursor: zoom-in;
+}
+
+#certs {
+    font-weight: bold;
+}
+
+#certs li {
+    margin-bottom: 20px
+}
+
+.certViewer {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+.certViewerCloser {
+    z-index: 3;
+    color: #b17979;
+    position: fixed;
+    cursor: pointer;
+    top: 50px;
+    left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+@keyframes para {
+    100% {
+        background-position: 8000px top,
+        3000px top,
+        1000px top;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    *[class^="col-"] {
+        margin-left: 20px !important;
+    }
+
+    .block, .me {
+        min-width: 90% !important;
+    }
+}
+
+.last > li {
+    padding-bottom: 10px;
+}
