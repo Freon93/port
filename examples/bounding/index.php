@@ -13,8 +13,7 @@
     <script src="scripts/index.js"></script>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="../../bootstrap/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="../../scripts/jquery-3.5.1.js"></script>
     <!--    <script src="../../bootstrap/jquery-3.5.1.slim.min.js"></script>-->
     <script src="../../bootstrap/popper.min.js"></script>
     <script src="../../bootstrap/bootstrap.min.js"></script>
