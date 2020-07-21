@@ -300,7 +300,7 @@
                     <embed src="examples/lidar/index.html" width="100%" height="300px">
                 </li>
                 <li>И последнее чисто по фану). Всегда хотел сделать и наконец-то появилось на это время: <a href="examples/mario" target="_blank">Mario</a></li>
-                <li>Исходный код всего этого проекта на <a href="">GitHub</a></li>
+                <li>Исходный код всего этого проекта на <a href="https://github.com/Freon93/port" target="_blank">GitHub</a></li>
             </ol>
 
         </div>
