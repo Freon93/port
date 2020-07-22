@@ -41,7 +41,7 @@ $(function () {
             document.getElementsByClassName('certViewer')[0].style.height = 'auto';
             document.getElementsByClassName('certViewer')[0].style.top = `calc(50% - ${$('.certViewer').eq(0).height() / 2}px)`;
             document.getElementsByClassName('content')[0].style.visibility = 'hidden';
-            console.log(`calc(50% - ${$('.certViewer').eq(0).height() / 2}px)`);
+
         }
         document.body.appendChild(certViewerCloser);
         $('.certViewerCloser').click(function () {

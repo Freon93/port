@@ -10,7 +10,7 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
-    <script src="./bootstrap/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/jquery-3.5.1.slim.min.js"></script>
     <script src="./bootstrap/popper.min.js"></script>
     <script src="./bootstrap/bootstrap.min.js"></script>
     <!--    <script src="./scripts/jquery-3.5.1.js"></script>-->
@@ -80,7 +80,7 @@
                 разработки разнообразных функциональностей в виде Web проектов
                 на заказ для внешних клиентов и для использования внутри компании, в которой работал. Большинство
                 заказов, которые выполнял были
-                связаны с деятельностью компании - предоставлением услуг Data Annotation in Machine Learning. Эта сфера
+                связаны с деятельностью компании - предоставлением услуг Data Annotation in Machine Learning (AI pre-study). Эта сфера
                 предполагает графичесскую
                 аннотацию объектов разной сложности на разного рода графичесских изображениях, от простых фотографий
                 объектов, до МРТ
@@ -96,7 +96,7 @@
                 настройки внешнего вида интерфейса до написания запросов к базе данных так, как в компании был
                 единственным Web разработчиком. И эту страницу тоже сделал самостоятельно с нуля, от настройки хостинга
                 до HTML верстки.<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Практичесские задачи выполнял на JavaScript и PHP, Python только изучал для
+                &nbsp;&nbsp;&nbsp;&nbsp;Практичесские задачи выполнял на JavaScript и PHP. Python только изучал для
                 себя. Посещал курсы SkillUp по PHP и CBS по Python.<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;Сейчас активно изучаю фреймворк React и препроцессоры Less и Sass. Не имею
                 коммерческого опыта в них, но понимаю, что сейчас для рынка они достаточно важны.<br>
@@ -299,7 +299,7 @@
                 <li>Пример использования бибилиотеки three.js со снимком lidar:
                     <embed src="examples/lidar/index.html" width="100%" height="300px">
                 </li>
-                <li>И последнее чисто по фану). Всегда хотел сделать и наконец-то появилось на это время: <a href="examples/mario" target="_blank">Mario</a></li>
+                <li>И последнее, просто по фану). Всегда хотел сделать и наконец-то появилось на это время: <a href="examples/mario" target="_blank">Mario</a></li>
                 <li>Исходный код всего этого проекта на <a href="https://github.com/Freon93/port" target="_blank">GitHub</a></li>
             </ol>
 
